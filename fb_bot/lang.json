@@ -1,0 +1,58 @@
+{
+  "start": {
+    "ru": "Здравствуйте, {name}! Добро пожаловать в команду разработчиков FyteBit. Мы специализируемся на создании сайтов и телеграм-ботов. Обратившись к нашей команде, вы получите множество преимуществ:\n\nИндивидуальный подход ко всем заказам и проектам;\nСовременные технологии и инструменты разработки;\nВысококачественная работа в сроки за низкую цену;\nПостоянная поддержка и помощь после завершения проектов;\n",
+    "en": "Hello {name}! Welcome to the FyteBit development team. We specialize in creating websites and telegram bots. By contacting our team, you will receive many advantages:\n\nIndividual approach to all orders and projects;\nModern technologies and development tools;\nHigh-quality work on time at a low price;\nContinuous support and assistance after projects are completed;\n"
+  },
+  "choose_lang": {
+    "ru": "Вы выбрали русский язык!\n\nВозвращайтесь в меню: /start",
+    "en": "You have chosen english!\n\nReturn to menu: /start"
+  },
+  "ask_a_question": {
+    "ru": "Просто задайте нам свой вопрос - мы постараемся ответить на него как можно быстрее",
+    "en": "Simply share your question with us here and we will answer it for you as quickly as possible"
+  },
+  "ask_a_question_keyboard": {
+    "ru": "Задать вопрос",
+    "en": "Ask a question"
+  },
+  "cancel_keyboard": {
+    "ru": "Отмена",
+    "en": "Cancel"
+  },
+  "ask_a_question_bot_answer": {
+    "ru": "Cпасибо за обращение, ответим как можно быстрее!",
+    "en": "Thank you for contacting us, we will respond as quickly as possible!"
+  },
+  "answer_keyboard": {
+    "ru": "Ответить",
+    "en": "Answer"
+  },
+  "technical_task_keyboard": {
+    "ru": "Помощник составления ТЗ",
+    "en": "TA assistant"
+  },
+  "technical_purpose": {
+    "ru": "Составление технического задания (ТЗ) для программиста является важным этапом разработки проекта. Я помогу Вам составить техническое задание, следуйте инструкциям:\n\n1. Определите цель проекта: Четко определите, что вы хотите достичь с помощью этого проекта. Установите основную цель и изложите ее в краткой и понятной форме:",
+    "en": "Drawing up technical assignment (TA) for a programmer is an important stage in project development. I will help you draw up technical assignment, follow the instructions\n\n1. Define the purpose of the project: Clearly define what you want to achieve with this project. Set your main goal and state it in a concise and clear way."
+  },
+  "technical_general": {
+    "ru": "Отлично!\n\n2. Опишите общие требования: Опишите общие требования к проекту. Это могут быть функциональные требования к функционалу, информационные требования, требования к безопасности, требования к производительности, требования к поддержке и подобное. Укажите, какие функции или возможности должны быть реализованы.",
+    "en": "Great!\n\n2. Describe the general requirements: Describe the general requirements for the project. These can be functional requirements for functionality, information requirements, security requirements, performance requirements, support requirements and the like. Specify which features or functionality should be implemented."
+  },
+  "technical_gui": {
+    "ru": "3. Предоставьте подробное описание пользовательского интерфейса (UI): Опишите, как должен выглядеть пользовательский интерфейс проекта. Укажите элементы интерфейса, их расположение, поведение и функциональность.",
+    "en": "3. Provide a detailed description of the user interface (UI): Describe what the user interface of the project should look like. Specify interface elements, their location, behavior, and functionality."
+  },
+  "technical_parameters": {
+    "ru": "4. Устанавливайте параметры и ограничения проекта: Укажите ожидаемые сроки выполнения проекта, бюджет, ограничения в использовании определенных технологий или платформ.",
+    "en": "4. Set project parameters and constraints: Indicate the expected time frame for the project, budget, restrictions on the use of certain technologies or platforms."
+  },
+  "technical_specifications": {
+    "ru": "5. Опишите спецификации и стандарты: Если у вас есть конкретные требования относительно спецификаций или стандартов, укажите их в ТЗ. Например, это может быть спецификация базы данных, API или формат файлов.",
+    "en": "5. Describe specifications and standards: If you have specific requirements regarding specifications or standards, indicate them in the statement of work. For example, this could be a database specification, an API, or a file format."
+  },
+  "technical_end": {
+    "ru": "Спасибо! Правильное составление ТЗ требует ясного понимания требований и целей проекта. Чем более детально и точно вы опишете требования, тем менее вероятны будут недоразумения и ошибки в процессе разработки.\n\nЯ проанализирую все данные и дам Вам ответ! Вы можете дополнить сообщение, отправьте текст, голосовое сообщение, документ, видео или фото:",
+    "en": "Thank you! Correct preparation of technical specifications requires a clear understanding of the requirements and goals of the project. The more detailed and precise you are in describing the requirements, the less likely there will be misunderstandings and errors during the development process.\n\nI will analyze all the data and give you an answer! You can add technical specifications by sending a text, voice message, document, video or photo:"
+  }
+}

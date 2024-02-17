@@ -3,9 +3,8 @@ from pymongo.collection import Collection
 from aiogram import BaseMiddleware
 from aiogram.types import Message, CallbackQuery
 
-
-from bot.database.collection import users_db
-from bot.database.models import User
+from fb_bot.database.collection import users_db
+from fb_bot.database.models import User
 
 
 class UserCheckMessageMiddleware(BaseMiddleware):
@@ -26,7 +25,7 @@ class UserCheckMessageMiddleware(BaseMiddleware):
             cart = [{'label': 'SimpleText', 'count': 1}]
             new_user = User(
                 user_id=event.from_user.id,
-                cart=cart,
+                ticket=0,
                 lang='ru'
             )
             result = users_db.insert_one(new_user())
@@ -47,14 +46,5 @@ class UserCheckCallbackMiddleware(BaseMiddleware):
     ) -> Any:
         self.user = users_db.find_one({'user_id': event.from_user.id})
         if self.user:
-            data['user'] = self.user
-            return await handler(event, data)
-        else:
-            new_user = User(
-                user_id=event.from_user.id,
-                cart=[]
-            )
-            result = users_db.insert_one(new_user())
-            self.user = users_db.find_one({'_id': result.inserted_id})
             data['user'] = self.user
             return await handler(event, data)

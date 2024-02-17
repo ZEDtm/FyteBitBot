@@ -10,6 +10,8 @@ load_dotenv()
 TOKEN = getenv('TOKEN')
 MONGO_LOGIN = getenv('MONGO_LOGIN')
 MONGO_PASS = getenv('MONGO_PASS')
+ADMIN_CHAT = getenv('ADMIN_CHAT')
+GIGA_TOKEN = getenv('GIGA_TOKEN')
 
 with open('lang.json', 'rb') as f:
     LANG = json.load(f)
